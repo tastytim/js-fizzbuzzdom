@@ -1,0 +1,42 @@
+.my-container {
+  padding: 0 10px;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-col {
+  width: 14.285714285714285714285714285714%;
+  padding: 5px;
+}
+
+.my-box {
+  width: 100%;
+  height: 200px;
+}
+
+.red {
+  background-color: #f0466f;
+}
+
+.yellow {
+  background-color: #ffd166;
+}
+
+.blue {
+  background-color: #1389b2;
+}
+
+.green {
+  background-color: #0bd6a1;
+}
+
+.line-h-200 {
+  line-height: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
