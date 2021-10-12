@@ -1,7 +1,12 @@
 const quadrettiContainer = document.getElementById("quadretti-container");
-quadrettiContainer.classList.add("my-container");
+quadrettiContainer.classList.add("my-container", "dark-blue");
+const h1 = document.createElement("h1");
+h1.textContent = "FizzBuzzDOM";
+h1.classList.add("h1-custom" , "text-center");
+
 const row = document.createElement("div");
 row.classList.add("my-row");
+quadrettiContainer.append(h1);
 quadrettiContainer.append(row);
 
 for (let i = 1; i <= 100; i++) {
