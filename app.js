@@ -1,6 +1,6 @@
 
 // Prendo id quadretti e aggiungo classe container-fluid
-const quadrettiContainer = document.getElementsByClassName("quadretti-container");
+const quadrettiContainer = document.getElementById("quadretti-container");
 quadrettiContainer.classList.add("container-fluid");
 
 
@@ -33,9 +33,9 @@ for(let i = 1; i <=100; i++){
     }else if(i % 5 === 0){
         quadretto.style.background = "yellow";
         quadretto.textContent = "buzz";
-    }else{
+    }else{ 
         quadretto.style.background = "blue";
-        quadretto.textContent = i.toString;
+        quadretto.textContent = i;
     }
 
     // Inserisco al interno della colonna quadretto
